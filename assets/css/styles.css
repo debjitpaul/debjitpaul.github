@@ -11,8 +11,8 @@ body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
   background: #808080;
-  background: #000000;
-  font-size: 16px;
+  background-image: url("img_tree.gif")
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -98,10 +98,6 @@ a.btn-cta-secondary:hover,
 .text-highlight {
   color: #C71585;
 }
-div {
-  background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
-  }
-
 .label-theme {
   background: #800000;
   font-size: 12px;
