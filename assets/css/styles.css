@@ -10,8 +10,8 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: linear-gradient(black, white);
-  background: url("assets/images/dp.jpg")
+  /*background: linear-gradient(black, white);*/
+  background: url("assets/images/dp.jpg");
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
