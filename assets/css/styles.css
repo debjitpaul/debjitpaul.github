@@ -27,6 +27,28 @@ h6 {
   color: #778492;
 }
 
+
+.twitter-timeline {
+  max-width: 100%;
+  max-height: 1000px;
+}
+.fa {
+  font-size: 25px;
+  color: #FFFFFF;
+}
+.panel-title {
+ font-size: 25px; 
+ color: #FFFFFF;
+ font-family: 'Open Sans', sans-serif;
+}
+.panel-heading {
+ background-color: #1da1f2 !important;
+ color: #1da1f2 !important;
+}
+.panel {
+ margin-top: 25px;
+}
+
 a {
   color: #3aaa64;
   -webkit-transition: all 0.4s ease-in-out;
