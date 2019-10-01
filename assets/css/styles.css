@@ -60,7 +60,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #8B0000;
-  color: #2d844e;
+  color: #8B0000;
 }
 
 .btn,
@@ -117,7 +117,7 @@ a.btn-cta-secondary:hover,
 }
 
 .text-highlight {
-  color: #0581ff;
+  color: #8B0000;
 }
 .label-theme {
   background: #800000;
