@@ -11,7 +11,7 @@ body {
   font-family: 'Lato', arial, sans-serif;
   color: #FDFEFE;
   background: white;
-  font-size: 20px;
+  font-size: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -86,8 +86,8 @@ a.btn:focus {
 
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #0581ff;
-  border: 1px solid #0581ff;
+  background: #8B0000;
+  border: 1px solid #8B0000;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -95,15 +95,15 @@ a.btn-cta-primary,
 
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: #0581ff;
-  border: 1px solid #0581ff;
+  background: #8B0000;
+  border: 1px solid #8B0000;
   color: #fff;
 }
 
 a.btn-cta-secondary,
 .btn-cta-secondary {
-  background: #0581ff;
-  border: 1px solid #0581ff;
+  background: #8B0000;
+  border: 1px solid #8B0000;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -111,8 +111,8 @@ a.btn-cta-secondary,
 
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
-  background: #0581ff;
-  border: 1px solid #0581ff;
+  background: #8B0000;
+  border: 1px solid #8B0000;
   color: #fff;
 }
 
@@ -126,12 +126,12 @@ a.btn-cta-secondary:hover,
 
 a.dotted-link {
   border-bottom: 1px dotted #778492;
-  color: #0581ff;
+  color: #8B0000;
 }
 
 a.dotted-link:hover {
   text-decoration: none;
-  color: #0581ff;
+  color: #8B0000;
 }
 
 /*
