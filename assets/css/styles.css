@@ -11,7 +11,7 @@ body {
   font-family: 'Lato', arial, sans-serif;
   color: #FDFEFE;
   background: white;
-  font-size: 30px;
+  font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -26,7 +26,18 @@ h6 {
   font-weight: 700;
   color: #FFFFFF;
 }
-
+small {
+    font-style: italic;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    max-width: 100%;
+    display: block;
+    align-self: center;
+}
 .switch {
     align-self: flex-end;
     margin: 0.9375rem;
@@ -47,12 +58,12 @@ h6 {
   max-height: 1000px;
 }
 .fa {
-  font-size: 25px;
-  color: #FFFFFF;
+  font-size: 20px;
+  color: #808080;
 }
 .panel-title {
  font-size: 25px; 
- color: #FFFFFF;
+ color: #808080;
  font-family: 'Open Sans', sans-serif;
 }
 .panel-heading {
@@ -329,7 +340,7 @@ iframe {
   top: 18px;
   width: 158px;
   padding: 10px 10px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -385,7 +396,7 @@ iframe {
 }
 
 .experience .item .title {
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 5px;
   line-height: 1.5;
@@ -430,7 +441,7 @@ iframe {
 }
 
 .info .fa.fa-envelope-o {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .info ul {
@@ -455,7 +466,7 @@ iframe {
 }
 
 .skills .skillset .level-title {
-  font-size: 16px;
+  font-size: 20px;
   position: relative;
   margin-top: 0;
   margin-bottom: 10;
