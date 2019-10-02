@@ -96,6 +96,12 @@ a:hover {
   color: #8B0000;
   color: #8B0000;
 }
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
 
 .btn,
 a.btn {
