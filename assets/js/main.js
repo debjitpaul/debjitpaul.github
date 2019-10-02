@@ -51,7 +51,15 @@ jQuery(document).ready(function($) {
         
         }
     );
-    
+    $( ".inner-switch" ).on("click", function() {
+    if( $( "body" ).hasClass( "dark" )) {
+      $( "body" ).removeClass( "dark" );
+      $( ".inner-switch" ).text( "OFF" );
+    } else {
+      $( "body" ).addClass( "dark" );
+      $( ".inner-switch" ).text( "ON" );
+    }
+    });
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
     GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
 
