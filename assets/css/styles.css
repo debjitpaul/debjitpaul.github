@@ -55,7 +55,7 @@ img {
 }
 @media (prefers-color-scheme: dark) {
   img {
-    opacity: .75;
+    opacity: .8;
     transition: opacity .5s ease-in-out;
   }
   img:hover {
@@ -63,10 +63,20 @@ img {
   }
 }
 .dark * {
-    background-color: #222;
+    background-color: #222!important;
     color: #e6e6e6;
     border-color: #e6e6e6;
 }
+
+body.dark {
+  background-color: #222;
+}
+
+.dark .header {
+  background-color: #222;
+  border-top: 10px solid #222;
+}
+
 .twitter-timeline {
   max-width: 100%;
   max-height: 1000px;
@@ -101,7 +111,6 @@ a:hover {
   color: #8B0000;
   color: #8B0000;
 }
-
 
 .btn,
 a.btn {
@@ -159,6 +168,7 @@ a.btn-cta-secondary:hover,
 .text-highlight {
   color: #8B0000;
 }
+
 .label-theme {
   background: #800000;
   font-size: 12px;
