@@ -55,7 +55,7 @@ img {
 }
 @media (prefers-color-scheme: dark) {
   img {
-    opacity: .8;
+    opacity: .90;
     transition: opacity .5s ease-in-out;
   }
   img:hover {
